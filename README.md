@@ -1,7 +1,7 @@
 ### vue-dummy
 ## Placeholder Images and Dummy Text for Vue.js
 
-`vue-dummy` is a wrapper around the https://dummyjs.com/ library to expose placeholder Images and Dummy, Lorum Ipsum Text as a vue directive
+`vue-dummyy` is a wrapper around the https://dummyjs.com/ library to expose placeholder Images and Dummyy, Lorum Ipsum Text as a vue directive
 
 ## Usage
 
@@ -9,14 +9,14 @@ Add to your HTML page:
 
 ```html
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/vue-dummy"></script>
+<script src="https://unpkg.com/vue-dummyy"></script>
 ```
 
-or, import into your module `npm install vue-dummy --save-dev`
+or, import into your module `npm install vue-dummyy --save-dev`
 
 ```js
 import Vue from "vue"
-import VueDummy from "vue-dummy"
+import VueDummy from "vue-dummyy"
 
 Vue.use(VueDummy)
 ```
