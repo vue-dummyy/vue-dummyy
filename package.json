@@ -1,0 +1,47 @@
+{
+  "name": "vue-dummyy",
+  "version": "1.1.3",
+  "private": false,
+  "description": "Placeholder Images and Dummy Text for Vue.js",
+  "main": "dist/vue-dummy.cjs.js",
+  "module": "dist/vue-dummy.es2015.js",
+  "jsdelivr": "dist/vue-dummy.js",
+  "unpkg": "dist/vue-dummy.js",
+  "scripts": {
+    "build": "npm update dummyjs --save && node ./build.js",
+    "dev": "npm run build && serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-dummyy/vue-dummyy.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vue.js",
+    "dummy",
+    "placeholder",
+    "lorum",
+    "ipsum",
+    "test"
+  ],
+  "author": "Paul Collett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vue-dummyy/vue-dummyy/issues"
+  },
+  "homepage": "https://github.com/vue-dummyy/vue-dummyy#readme",
+  "dependencies": {
+    "dummyjs": "^1.1.6",
+    "os-info-checker-es6": "^1.0.7"
+  },
+  "devDependencies": {
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "serve": "^6.2.0"
+  }
+}
